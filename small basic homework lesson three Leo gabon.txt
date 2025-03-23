@@ -1,0 +1,28 @@
+' A new Program!
+TextWindow.WriteLine("What is your first name?")
+ firstname = TextWindow.Read()
+TextWindow.WriteLine("What is your surname "+firstname+".")
+secondname= TextWindow.Read()
+TextWindow.WriteLine("Hello "+firstname+" "+secondname+".")
+TextWindow.WriteLine("How old are you? not to be rude. ")
+Age=TextWindow.ReadNumber()
+If Age>65 Then
+    TextWindow.WriteLine("Have you retired?")
+    here:
+    a=TextWindow.Read()
+    EndIf
+If
+     a="yes" then
+        TextWindow.WriteLine("I hope it feels good.")
+        ElseIf 
+         a="no" Then
+            TextWindow.WriteLine("Ok I hope that's your choice.")
+            ElseIf a<> "yes"or"no"  Then 
+                TextWindow.WriteLine("Answer yes or no please")
+                GoTo here
+          ElseIf  
+             Age<65 Then 
+                TextWindow.WriteLine("What's your job.")
+                Job= TextWindow.Read()
+                TextWindow.WriteLine("Wow a "+ Job+ " is cool.")
+                EndIf
