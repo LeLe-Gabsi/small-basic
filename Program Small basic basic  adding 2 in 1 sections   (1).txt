@@ -1,0 +1,138 @@
+' A new Program!
+TextWindow.WriteLine("How old are you?")
+Number=TextWindow.ReadNumber()
+TextWindow.WriteLine("you are " + Number*12 + " months old")
+
+TextWindow.WriteLine("Do you want to know what that is in weeks?")
+labelA:
+TextWindow.WriteLine("")
+Answer=TextWindow.Read()
+If Answer="yes" then   
+    TopA:
+    TextWindow.WriteLine("You are " + Number*52 + " weeks old" )
+ElseIf Answer="no" then   
+    TextWindow.WriteLine("ok" )
+    TextWindow.WriteLine("If you want you can go back to the question again Remember, Answer yes or no ")
+    Read:
+    TextWindow.WriteLine("")
+    Answer=TextWindow.Read()
+    If Answer="yes" Then
+        GoTo TopA
+        ElseIf Answer="no" Then
+            TextWindow.WriteLine("fine")
+            Else
+                TextWindow.Write("Answer yes or no please ")
+                GoTo Read
+    EndIf
+Else 
+    TextWindow.Write("Answer yes or no please")
+    GoTo labelA
+EndIf
+TextWindow.WriteLine("Do you want to know what that is in Days?")
+labelB:
+TextWindow.WriteLine("")
+Answer=TextWindow.Read()
+If Answer="yes" then   
+    TextWindow.WriteLine("You are " + Number*365 + " days old" )
+ElseIf Answer="no" then   
+    TextWindow.WriteLine("ok" )
+Else 
+    TextWindow.Write("Answer yes or no please")
+    GoTo labelB
+EndIf
+    TextWindow.WriteLine("Do you want to know what that is in hours?")
+labelC:
+TextWindow.WriteLine("")
+Answer=TextWindow.Read()
+If Answer="yes" then   
+    TextWindow.WriteLine("You are " + Number*8760 + " hours old" )
+ElseIf Answer="no" then   
+    TextWindow.WriteLine("ok" )
+Else 
+    TextWindow.Write("Answer yes or no please")
+    GoTo labelC
+EndIf
+    TextWindow.WriteLine("Do you want to know what that is in minutes?")
+labelD:
+TextWindow.WriteLine("")
+Answer=TextWindow.Read()
+If Answer="yes" then   
+    TextWindow.WriteLine("You are " + Number*525600 + " minutes old" )
+ElseIf Answer="no" then   
+    TextWindow.WriteLine("ok" )
+Else 
+    TextWindow.Write("Answer yes or no please")
+    GoTo labelD
+EndIf
+     TextWindow.WriteLine("Do you want to know what that is in seconds?")
+labelE:
+TextWindow.WriteLine("")
+Answer=TextWindow.Read()
+If Answer="yes" then   
+    TextWindow.WriteLine("You are " + Number*31536000 + " seconds old" )
+ElseIf Answer="no" then   
+    TextWindow.WriteLine("ok" )
+Else 
+    TextWindow.Write("Answer yes or no please")
+    GoTo labelE
+EndIf
+    TextWindow.WriteLine("Do you want to know what that is in milliseconds?")
+labelF:
+TextWindow.WriteLine("")
+Answer=TextWindow.Read()
+If Answer="yes" then   
+    TextWindow.WriteLine("You are " + Number*317536000000 + " milliseconds old" )
+ElseIf Answer="no" then   
+    TextWindow.WriteLine("ok" )
+Else 
+    TextWindow.Write("Answer yes or no please")
+    GoTo labelF
+EndIf
+    TextWindow.WriteLine("Do you want to know what that is in microseconds?")
+labelG:
+TextWindow.WriteLine("")
+Answer=TextWindow.Read()
+If Answer="yes" then   
+    TextWindow.WriteLine("You are " + Number*31536000000000 + " microseconds old" )
+ElseIf Answer="no" then   
+    TextWindow.WriteLine("ok" )
+Else 
+    TextWindow.Write("Answer yes or no please")
+    GoTo labelG
+EndIf
+     TextWindow.WriteLine("Do you want to know what that is in nanoseconds?")
+labelH:
+TextWindow.WriteLine("")
+Answer=TextWindow.Read()
+If Answer="yes" then   
+    TextWindow.WriteLine("You are " + Number*31536000000000000 + " nanoseconds old" )
+ElseIf Answer="no" then   
+    TextWindow.WriteLine("ok" )
+Else 
+    TextWindow.Write("Answer yes or no please")
+    GoTo labelH
+EndIf
+ TextWindow.WriteLine("Do you want to know what that is in Picosecond?")
+labelI:
+TextWindow.WriteLine("")
+Answer=TextWindow.Read()
+If Answer="yes" then   
+    TextWindow.WriteLine("You are " + Number*31536000000000000000 + "Picoseconds old" )
+ElseIf Answer="no" then   
+    TextWindow.WriteLine("ok" )
+Else 
+    TextWindow.Write("Answer yes or no please") 
+    GoTo labelI
+EndIf
+    TextWindow.WriteLine("Do you want to know what that is in femtosecond?")
+labelJ:
+TextWindow.WriteLine("")
+Answer=TextWindow.Read()
+If Answer="yes" then   
+    TextWindow.WriteLine("You are " + Number*31556952000000000000000 + " femtoseconds old" )
+ElseIf Answer="no" then   
+    TextWindow.WriteLine("ok" )
+Else 
+    TextWindow.Write("Answer yes or no please") 
+    GoTo labelJ
+EndIf
